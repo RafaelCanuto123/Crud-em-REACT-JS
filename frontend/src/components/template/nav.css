@@ -1,0 +1,36 @@
+aside.menu-area{
+    background-color: var(--bg-dark);
+    box-shadow: 2px 0 10px rgba(0,0,0 0.12)
+                2px 0 15px rgba(0, 0, 0, 0.09)                          ;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    padding: 15px;
+}
+.menu a:hover{
+    background: #dd3e54;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: none;
+
+}
+@media (max-width: 768px) {
+    .menu{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu a{
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+    }
+    .menu {
+        height: 100%;
+        justify-content: space-around;
+    }
+}

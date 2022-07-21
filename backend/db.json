@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "name": "Rafael da Cunha Canuto",
+      "email": "rafaelccanuto@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Gustavo Silva",
+      "email": "teste@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Bruna Silva",
+      "email": "bruna.silva2020@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Karine Darabas",
+      "email": "karine.darabas@gmail.com.br",
+      "id": 4
+    }
+  ]
+}
